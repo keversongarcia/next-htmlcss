@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:  border-box;
+}
+body{
+  font-family:'Poppins', sans-serif;
+}
+.App {
+  display: grid;
+  grid-template-columns: 500px 1fr;
+}
+.gap{
+  display: grid;
+  grid-row-gap: 20px;
+}
+
+.login{
+  padding: 100px;
+  max-height: 100vh;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.bg{
+  background-color: blueviolet;
+}
+
+.title{
+  font-size: 50px;
+  color: rgb(47, 44, 44);
+  text-align: center;
+}
+
+.input{
+  padding: 10px;
+  color: rgb(27, 0, 63);
+  border-radius: 2px;
+  width: 100%;
+  border:1px solid rgb(102, 12, 129);
+  
+  border-radius: 4;
+}
+.input:focus{
+  color: rgb(76, 8, 139);
+  outline: rgb(102, 12, 129);
+}
+.p{
+  color: rgba(0,0,0, .7);
+  font-size: 15px;
+  margin-top: 50px;
+  text-align: center;
+}
+.btn{
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(153, 0, 255);
+  border-radius: 2px;
+  transition: 0.2s;
+  border: 1px solid rgb(153, 0, 255);
+  width: 100%;
+  cursor: pointer;
+}
+.btn:hover{
+  padding: 10px;
+  background-color: rgb(153, 0, 255);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    transition: 0.2s;
+    border: 1px solid rgb(153, 0, 255);
+    width: 100%;
+}
+
+.btn1{
+  padding: 10px;
+  background-color: rgb(153, 0, 255);
+  color: aliceblue;
+  border-radius: 2px;
+  width: 100%;
+  border:1px solid #fff;
+}
+.btn1:hover{
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(153, 0, 255);
+  border-radius: 2px;
+  transition: 0.2s;
+  border: 1px solid rgb(153, 0, 255);
+  cursor: pointer;
+ 
+}
+
+.bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h1name{
+  color: blanchedalmond;
+}
